@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:burlywood;
+}
+.main{
+    position:relative;
+    width:100%;
+}
+
+.main::before{
+    content: "";
+    position:absolute;
+    background-image:url("./download.jfif") ;
+    background-repeat: no-repeat;
+    border:2px solid black;
+    background-size: cover;
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.3;
+    height:100vh;
+    width:100%;
+    z-index: -1;
+}
+.matter{
+    height:100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+}
+ h1{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 2%;
+
+}
+.intro{
+    text-align: center;
+    font-size: x-large;
+    margin:1%;
+    box-shadow: 0 3px 4px 0;
+    margin-bottom:0;
+}
+.earlylife{
+    display: inline-block;
+    font-size: x-large;
+    margin:1%;
+    margin-bottom:0;
+}
+.grid{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns:1fr 1fr;
+    
+}
+.grid-item{
+    margin:3%;
+    padding:1%;
+    font-size:1.4em;
+    margin-bottom:0;
+}
+h2{
+    margin-bottom: 1%;
+}
+.conclusion{
+    text-align: center;
+    font-size: x-large;
+    box-shadow: 0 3px 4px 0;
+    margin:1%;
+    margin-left:5%;
+    margin-right:4%;
+    font-weight: bold;
+}
